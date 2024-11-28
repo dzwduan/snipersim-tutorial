@@ -1,0 +1,6 @@
+[submodule "snipersim"]
+	path = snipersim
+	url = https://github.com/dzwduan/snipersim.git
+[submodule "benchmarks"]
+	path = benchmarks
+	url = http://snipersim.org/git/benchmarks.git

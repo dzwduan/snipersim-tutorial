@@ -1,0 +1,51 @@
+{'cmdline': ['./run-sniper', '--', '/bin/ls'],
+ 'git_revision': '2c1378590ff483d5dccf695f930eaa2a12f8e31d',
+ 'host': '5950x',
+ 'pin_version': 'unknown',
+ 'rusage': (1.127116,
+            0.27945,
+            150472,
+            0,
+            0,
+            0,
+            23572,
+            599,
+            0,
+            122120,
+            216,
+            0,
+            0,
+            0,
+            18188,
+            4),
+ 'snipercmd': ['bash',
+               '-c',
+               '/home/dzw/snipersim/lib/sniper -c '
+               '/home/dzw/snipersim/config/base.cfg --general/total_cores=1 '
+               '--general/output_dir=/home/dzw/snipersim '
+               '--config=/home/dzw/snipersim/config/nehalem.cfg '
+               '--config=/home/dzw/snipersim/config/gainestown.cfg '
+               '--config=/home/dzw/snipersim/config/rob.cfg -g '
+               '--traceinput/stop_with_first_app=true -g '
+               '--traceinput/restart_apps=false -g '
+               '--traceinput/stop_with_first_app=false -g '
+               '--traceinput/enabled=true -g '
+               '--traceinput/emulate_syscalls=true -g --traceinput/num_apps=1 '
+               '-g --traceinput/trace_prefix=/tmp/tmpchxj7yec/run_benchmarks'],
+ 't_elapsed': 6.035186529159546,
+ 't_start': 1732777747.2998905,
+ 'tracecmds': [['/home/dzw/snipersim/record-trace',
+                '-o',
+                '/tmp/tmpchxj7yec/run_benchmarks',
+                '-e',
+                '1',
+                '-s',
+                '0',
+                '-r',
+                '1',
+                '--follow',
+                '--routine-tracing',
+                '--',
+                '/bin/ls']],
+ 'user': 'dzw',
+ 'vmem': 359350272}

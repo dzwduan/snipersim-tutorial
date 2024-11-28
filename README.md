@@ -12,3 +12,10 @@ refer [lab3](https://comp.anu.edu.au/courses/comp3710-uarch/labs/09-sniper-backe
 
 ## Lab4 sniper with LoopPoint
 refer [LoopPoint HPCA22 Repo](https://github.com/nus-comparch/looppoint)
+
+## Preconditions
+Be familiar with cache coherence and write a CC-UMA-Simulator from scratch
+
+## Generate sift trace
+
+refer https://snipersim.org/w/Multi-programmed_workloads
